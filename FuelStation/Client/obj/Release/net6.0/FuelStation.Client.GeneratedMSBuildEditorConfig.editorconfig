@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = FuelStation.Client
+build_property.RootNamespace = FuelStation.Client
+build_property.ProjectDir = C:\Users\Charis\Desktop\EpsilonNet\FuelStation-ERP\FuelStation\Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Charis\Desktop\EpsilonNet\FuelStation-ERP\FuelStation\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Charis/Desktop/EpsilonNet/FuelStation-ERP/FuelStation/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Charis/Desktop/EpsilonNet/FuelStation-ERP/FuelStation/Client/Pages/Customers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Charis/Desktop/EpsilonNet/FuelStation-ERP/FuelStation/Client/Pages/Employee.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Charis/Desktop/EpsilonNet/FuelStation-ERP/FuelStation/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Charis/Desktop/EpsilonNet/FuelStation-ERP/FuelStation/Client/Pages/Items.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Charis/Desktop/EpsilonNet/FuelStation-ERP/FuelStation/Client/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Charis/Desktop/EpsilonNet/FuelStation-ERP/FuelStation/Client/Pages/MonthlyLedger.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9udGhseUxlZGdlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Charis/Desktop/EpsilonNet/FuelStation-ERP/FuelStation/Client/Shared/CashierLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhc2hpZXJMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Charis/Desktop/EpsilonNet/FuelStation-ERP/FuelStation/Client/Shared/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Charis/Desktop/EpsilonNet/FuelStation-ERP/FuelStation/Client/Shared/StaffLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN0YWZmTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Charis/Desktop/EpsilonNet/FuelStation-ERP/FuelStation/Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Charis/Desktop/EpsilonNet/FuelStation-ERP/FuelStation/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Charis/Desktop/EpsilonNet/FuelStation-ERP/FuelStation/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-txbfpign80
+
+[C:/Users/Charis/Desktop/EpsilonNet/FuelStation-ERP/FuelStation/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-tk55s0diar

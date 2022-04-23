@@ -1,0 +1,235 @@
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Win.exe
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Win.deps.json
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Win.runtimeconfig.json
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Win.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Win.pdb
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.csproj.AssemblyReference.cache
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.Form1.resources
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.csproj.GenerateResource.cache
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.AssemblyInfoInputs.cache
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.AssemblyInfo.cs
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.csproj.CoreCompileInputs.cache
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\refint\FuelStation.Win.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.pdb
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.genruntimeconfig.cache
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\ref\FuelStation.Win.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Server.deps.json
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Server.runtimeconfig.json
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Client.staticwebassets.runtime.json
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\appsettings.Development.json
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\appsettings.json
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Server.staticwebassets.runtime.json
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Server.exe
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Components.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.JSInterop.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Client.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.EF.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Model.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Server.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Shared.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Server.pdb
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Client.pdb
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.EF.pdb
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Model.pdb
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Shared.pdb
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.csproj.CopyComplete
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.csproj.AssemblyReference.cache
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.AddLineForm.resources
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.CashierForm.resources
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.CustomersForm.resources
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.FindCustomer.resources
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.ItemListForm.resources
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.LoginForm.resources
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.ManagerForm.resources
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.NewCustomerForm.resources
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.NewItemForm.resources
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.NewTransactionForm.resources
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.Properties.Resources.resources
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.StaffForm.resources
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.TransactionForm.resources
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.csproj.GenerateResource.cache
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.AssemblyInfoInputs.cache
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.AssemblyInfo.cs
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.csproj.CoreCompileInputs.cache
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Server.deps.json
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Server.runtimeconfig.json
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Client.staticwebassets.runtime.json
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\appsettings.Development.json
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\appsettings.json
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Server.staticwebassets.runtime.json
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Server.exe
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Win.exe
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Win.deps.json
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Win.runtimeconfig.json
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Win.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Win.pdb
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\IronBarCode.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Blazored.LocalStorage.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraCharts.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Charts.v21.2.Core.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.CodeParser.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Data.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Data.Desktop.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.DataAccess.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.DataAccess.v21.2.UI.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.DataVisualization.v21.2.Core.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Diagram.v21.2.Core.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraGauges.v21.2.Core.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Images.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Map.v21.2.Core.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Office.v21.2.Core.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Pdf.v21.2.Core.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Pdf.v21.2.Drawing.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.PivotGrid.v21.2.Core.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Printing.v21.2.Core.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraReports.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.RichEdit.v21.2.Core.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.RichEdit.v21.2.Export.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraScheduler.v21.2.Core.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraScheduler.v21.2.Core.Desktop.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Sparkline.v21.2.Core.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.SpellChecker.v21.2.Core.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Spreadsheet.v21.2.Core.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraTreeMap.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.TreeMap.v21.2.Core.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Utils.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Utils.v21.2.UI.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraNavBar.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraWizard.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraCharts.v21.2.Extensions.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraCharts.v21.2.UI.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraCharts.v21.2.Wizard.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Mvvm.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Xpo.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraBars.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraDiagram.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraDialogs.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraEditors.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraGantt.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraGauges.v21.2.Presets.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraGauges.v21.2.Win.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraGrid.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraLayout.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraMap.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraPdfViewer.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraPivotGrid.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraPrinting.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraReports.v21.2.Extensions.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraRichEdit.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraScheduler.v21.2.Extensions.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraScheduler.v21.2.Reporting.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraScheduler.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraSpellChecker.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraSpreadsheet.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraTreeList.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraTreeMap.v21.2.UI.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.XtraVerticalGrid.v21.2.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\DevExpress.Dialogs.v21.2.Core.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Components.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.JSInterop.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\System.Data.OleDb.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\System.ServiceModel.Http.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\System.ServiceModel.NetTcp.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\System.ServiceModel.Primitives.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\System.ServiceModel.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\System.ServiceModel.Security.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Client.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.EF.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Model.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Server.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Shared.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Server.pdb
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Shared.pdb
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Client.pdb
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.EF.pdb
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\bin\Debug\net6.0-windows\FuelStation.Model.pdb
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.csproj.CopyComplete
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\refint\FuelStation.Win.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.pdb
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\FuelStation.Win.genruntimeconfig.cache
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Win\obj\Debug\net6.0-windows\ref\FuelStation.Win.dll

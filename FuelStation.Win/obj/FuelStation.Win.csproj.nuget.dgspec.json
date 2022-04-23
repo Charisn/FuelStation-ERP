@@ -1,0 +1,485 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.Win\\FuelStation.Win.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.EF\\FuelStation.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.EF\\FuelStation.EF.csproj",
+        "projectName": "FuelStation.EF",
+        "projectPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.EF\\FuelStation.EF.csproj",
+        "packagesPath": "C:\\Users\\Charis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Charis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.Model\\FuelStation.Model.csproj": {
+                "projectPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.Model\\FuelStation.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.Model\\FuelStation.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.Model\\FuelStation.Model.csproj",
+        "projectName": "FuelStation.Model",
+        "projectPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.Model\\FuelStation.Model.csproj",
+        "packagesPath": "C:\\Users\\Charis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Charis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.Win\\FuelStation.Win.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.Win\\FuelStation.Win.csproj",
+        "projectName": "FuelStation.Win",
+        "projectPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.Win\\FuelStation.Win.csproj",
+        "packagesPath": "C:\\Users\\Charis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.Win\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Charis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Server\\FuelStation.Server.csproj": {
+                "projectPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Server\\FuelStation.Server.csproj"
+              },
+              "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Shared\\FuelStation.Shared.csproj": {
+                "projectPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Shared\\FuelStation.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.JSInterop": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "devexpress.win.design": {
+              "target": "Package",
+              "version": "[21.2.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Client\\FuelStation.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Client\\FuelStation.Client.csproj",
+        "projectName": "FuelStation.Client",
+        "projectPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Client\\FuelStation.Client.csproj",
+        "packagesPath": "C:\\Users\\Charis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Charis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Shared\\FuelStation.Shared.csproj": {
+                "projectPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Shared\\FuelStation.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Barcode": {
+              "target": "Package",
+              "version": "[2022.3.0, )"
+            },
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.JSInterop": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.JSInterop.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.4, 6.0.4]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Server\\FuelStation.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Server\\FuelStation.Server.csproj",
+        "projectName": "FuelStation.Server",
+        "projectPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Server\\FuelStation.Server.csproj",
+        "packagesPath": "C:\\Users\\Charis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Charis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.EF\\FuelStation.EF.csproj": {
+                "projectPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.EF\\FuelStation.EF.csproj"
+              },
+              "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.Model\\FuelStation.Model.csproj": {
+                "projectPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.Model\\FuelStation.Model.csproj"
+              },
+              "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Client\\FuelStation.Client.csproj": {
+                "projectPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Client\\FuelStation.Client.csproj"
+              },
+              "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Shared\\FuelStation.Shared.csproj": {
+                "projectPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Shared\\FuelStation.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Barcode": {
+              "target": "Package",
+              "version": "[2022.3.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Shared\\FuelStation.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Shared\\FuelStation.Shared.csproj",
+        "projectName": "FuelStation.Shared",
+        "projectPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Shared\\FuelStation.Shared.csproj",
+        "packagesPath": "C:\\Users\\Charis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Charis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.Model\\FuelStation.Model.csproj": {
+                "projectPath": "C:\\Users\\Charis\\Desktop\\EpsilonNet\\FuelStation-ERP\\FuelStation.Model\\FuelStation.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

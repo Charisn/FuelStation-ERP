@@ -1,0 +1,34 @@
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\bin\Debug\net6.0\FuelStation.EF.deps.json
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\bin\Debug\net6.0\FuelStation.EF.runtimeconfig.json
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\bin\Debug\net6.0\FuelStation.EF.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\bin\Debug\net6.0\FuelStation.EF.pdb
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\bin\Debug\net6.0\FuelStation.Model.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\bin\Debug\net6.0\FuelStation.Model.pdb
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.csproj.AssemblyReference.cache
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.AssemblyInfoInputs.cache
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.AssemblyInfo.cs
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.csproj.CoreCompileInputs.cache
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.csproj.CopyComplete
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\obj\Debug\net6.0\refint\FuelStation.EF.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.pdb
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.genruntimeconfig.cache
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.EF\obj\Debug\net6.0\ref\FuelStation.EF.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\bin\Debug\net6.0\FuelStation.EF.deps.json
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\bin\Debug\net6.0\FuelStation.EF.runtimeconfig.json
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\bin\Debug\net6.0\FuelStation.EF.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\bin\Debug\net6.0\FuelStation.EF.pdb
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\bin\Debug\net6.0\FuelStation.Model.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\bin\Debug\net6.0\FuelStation.Model.pdb
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.csproj.AssemblyReference.cache
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.AssemblyInfoInputs.cache
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.AssemblyInfo.cs
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.csproj.CoreCompileInputs.cache
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.csproj.CopyComplete
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\obj\Debug\net6.0\refint\FuelStation.EF.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.pdb
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\obj\Debug\net6.0\FuelStation.EF.genruntimeconfig.cache
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.EF\obj\Debug\net6.0\ref\FuelStation.EF.dll

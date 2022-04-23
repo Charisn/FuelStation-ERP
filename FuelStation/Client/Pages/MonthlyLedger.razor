@@ -1,0 +1,84 @@
+﻿@page "/monthlyledger"
+@inject HttpClient httpClient
+@inject NavigationManager navManager
+@using FuelStation.Shared
+
+<PageTitle>Fuel Station - Monthly Ledger</PageTitle>
+
+<h2>Monthly Ledger</h2>
+
+<div class="row justify-content-start">
+    <div class="col-md-4">
+        <input type="date" class="form-control" @bind="Date" />
+    </div>
+    <div class="col-md-4">
+        <button class="btn btn-outline-primary" @onclick="GetLedger">Get Monthly Ledger</button>
+    </div>
+
+</div>
+
+
+<div class="table-responsive-md">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Month</th>
+                <th>Income</th>
+                <th>Expenses</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (isLoading)
+            {
+                <tr>
+                    <td>
+                        <div class="spinner-border" role="status"></div>
+                    </td>
+                    <td>
+                        <div class="spinner-border" role="status"></div>
+                    </td>
+                    <td>
+                        <div class="spinner-border" role="status"></div>
+                    </td>
+                    <td>
+                        <div class="spinner-border" role="status"></div>
+                    </td>
+                    <td>
+                        <div class="spinner-border" role="status"></div>
+                    </td>
+                </tr>
+            }
+            else
+            {
+                <tr>
+                    <td>@ledger.Year</td>
+                    @*<td>@((MonthEnum)Date.Month)</td>*@
+                    <td>@Date.ToString("MMMM")</td>
+                    <td>@ledger.Income</td>
+                    <td>@ledger.Expenses</td>
+                    <td>@ledger.Total</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+@code {
+    private LedgerViewModel ledger;
+    private DateTime Date { get; set; } = DateTime.Now;
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        ledger = await httpClient.GetFromJsonAsync<LedgerViewModel>($"Ledger/ledgerof/{Date.Year}/{Date.Month}");
+        isLoading = false;
+    }
+
+    protected async Task GetLedger()
+    {
+        ledger = await httpClient.GetFromJsonAsync<LedgerViewModel>($"Ledger/ledgerof/{Date.Year}/{Date.Month}");
+    }
+}

@@ -1,0 +1,225 @@
+﻿@layout CashierLayout
+@page "/customerList"
+
+@inject HttpClient httpClient
+@inject IJSRuntime jsRuntime
+@inject NavigationManager navManager
+@using System.IO
+
+<div style="text-align:center">
+    @if (!DeleteMode)
+    {
+        <h3>Active Customers (@_customerList.Count())</h3>        
+    }
+    @if (DeleteMode)
+    {
+        <h3>Inactive Customers (@_customerList.Count())</h3>        
+    }
+    <br>
+    <EditForm Model="@_customerView">
+        <div class="form-group form-control">
+            <div class="input-group" style="align-items:center">
+                <input class="form-control" @onkeyup=InputOnEnterClick @bind=_customerView.Name placeholder="Name" />
+                <input class="form-control" @onkeyup=InputOnEnterClick @bind=_customerView.Surname placeholder="Surname" />
+            </div>
+        </div>
+        <br><br>
+        <button class="btn btn:hover" @onclick="AddCustomer">Add Customer</button>
+    </EditForm>
+</div>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Has Card</th>
+            <th>
+                  <button class="btn btn-warning" @onclick="OnInitializedAsync">Deleted</button>
+                  <button class="btn btn-outline-dark" @onclick="() => EditMode = !EditMode">Edit</button>
+            </th>
+        </tr>            
+    </thead>
+    <tbody>
+
+@if (isLoading)
+        {
+            <tr>
+                <td>
+                    <div class="spinner-border" role="status"></div>
+                </td>
+                <td>
+                    <div class="spinner-border" role="status"></div>
+                </td>
+                <td>
+                    <div class="spinner-border" role="status"></div>
+                </td>
+                <td>
+                    <div class="spinner-border" role="status"></div>
+                </td>
+            </tr>
+        }
+
+        @if (EditMode)
+        {
+            @foreach (var customer in _customerList)
+            {
+                <tr>
+                    <td><input class="form-control" @bind=customer.Name readonly /></td>
+                    <td><input class="form-control" @bind=customer.Surname readonly /></td>
+                    <td><input class="form-control" @bind=customer.CardNumber readonly /> </td>
+                    <td>
+                        @if (DeleteMode)
+                        {
+                            <td><button class="btn btn-outline-success" @onclick="() => SaveCustomer(customer)"> Save</button></td>
+                            <td> <button class="btn btn-outline-warning" @onclick="()=> DeleteCustomer(customer)"> Undo</button></td>
+                        }
+                        @if (!DeleteMode)
+                        {
+                            <td><button class="btn btn-outline-success" @onclick="() => SaveCustomer(customer)">Save</button></td>
+                            <td> <button class="btn btn-outline-danger" @onclick="()=> DeleteCustomer(customer) ">Delete</button></td>
+                        }
+                    </td>
+                </tr>
+            }
+        }
+        @if (!EditMode)
+        {
+            @foreach (var customer in _customerList)
+            {
+                <tr>
+                    <td><input class="form-control" @bind=customer.Name  /></td>
+                    <td><input class="form-control" @bind=customer.Surname /></td>
+                    <td><input class="form-control" @bind=customer.CardNumber readonly /> </td>
+
+                    <td>
+                        @if (DeleteMode)
+                        {
+                            <td><button class="btn btn-outline-success" @onclick="() => SaveCustomer(customer)">Save</button></td>
+                            <td> <button class="btn btn-outline-warning" @onclick="()=> DeleteCustomer(customer) ">Undo</button></td>
+                        }
+                        @if (!DeleteMode)
+                        {
+                            <td><button class="btn btn-outline-success" @onclick="() => SaveCustomer(customer)">Save</button></td>
+                            <td> <button class="btn btn-outline-danger" @onclick="()=> DeleteCustomer(customer) ">Delete</button></td>
+                        }
+                    </td>
+                </tr>
+            }
+        }
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</tbody>   
+</table>
+
+@code {
+
+    private CustomerViewModel _customerView { get; set; } = new();
+
+    List<CustomerViewModel> _customerList = new();
+
+    bool isLoading = true;
+
+    internal bool EditMode = true;
+
+    internal bool DeleteMode = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        isLoading = true;
+        DeleteMode = !DeleteMode;
+        if (DeleteMode)
+        {
+            await LoadDeletedCustomersFromServer();
+        }
+        else
+        {
+            await LoadCustomersFromServer();
+        }
+        isLoading = false;
+    }
+    private async Task LoadCustomersFromServer()
+    {
+        _customerList = await httpClient.GetFromJsonAsync<List<CustomerViewModel>>("customer");
+    }
+
+    private async Task LoadDeletedCustomersFromServer()
+    {
+        _customerList = await httpClient.GetFromJsonAsync<List<CustomerViewModel>>("customer/statusfalse");
+    }
+
+    async Task AddCustomer()
+    {
+
+        if (string.IsNullOrWhiteSpace(_customerView.Name) 
+        || string.IsNullOrWhiteSpace(_customerView.Surname))
+        {
+            await jsRuntime.InvokeVoidAsync("window.alert", ("All fields are Required"));
+            return;
+        }
+
+        if (_customerView.Name.Any(x => char.IsDigit(x)) is true 
+        || _customerView.Surname.Any(x => char.IsDigit(x)) is true)
+        {
+            await jsRuntime.InvokeVoidAsync("window.alert", ("Fields cannot take numbers."));
+            return;            
+        }
+
+        await httpClient.PostAsJsonAsync("customer", _customerView);
+
+        _customerView = new();
+        _customerView.Name = string.Empty;
+        _customerView.Surname = string.Empty;
+        await LoadCustomersFromServer();
+    }
+
+
+
+    async Task DeleteCustomer(CustomerViewModel customerToDelete)
+    {
+        var confirm = await jsRuntime.InvokeAsync<bool>("confirmationJS", null);
+        if (confirm)
+        {
+            var response = await httpClient.DeleteAsync($"customer/{customerToDelete.ID}");
+            response.EnsureSuccessStatusCode();
+            await LoadCustomersFromServer();
+        }
+    }
+    async Task InputOnEnterClick(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            await AddCustomer();
+        }
+    }
+
+    async Task SaveCustomer(CustomerViewModel customer)
+    {
+        var confirm = await jsRuntime.InvokeAsync<bool>("confirmationJS", null);
+        if (confirm)
+        {
+            var response = await httpClient.PutAsJsonAsync("customer", customer);
+            response.EnsureSuccessStatusCode();
+            await LoadCustomersFromServer();
+        }
+    }
+}

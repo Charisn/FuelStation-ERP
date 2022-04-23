@@ -1,0 +1,281 @@
+﻿@page "/employeeList"
+
+@inject HttpClient httpClient
+@inject IJSRuntime jsRuntime
+@inject NavigationManager navManager
+
+
+
+<div style="text-align:center">
+    @if (!DeleteMode)
+    {
+        <h3>Current Employees (@_employeeList.Count())</h3>        
+    }
+    @if (DeleteMode)
+    {
+        <h3>Past Employees (@_employeeList.Count())</h3>        
+    }
+    <br>
+    <EditForm Model="@_employeeView">
+        <div class="form-group form-control">
+            <div class="input-group" style="align-items:center">
+                <input class="form-control" @onkeyup=InputOnEnterClick @bind=_employeeView.Name placeholder="Name" />
+                <input class="form-control" @onkeyup=InputOnEnterClick @bind=_employeeView.Surname placeholder="Surname" />
+                <input class="form-control" @onkeyup=InputOnEnterClick @bind=_employeeView.SalaryPerMonth placeholder="Salary" />
+            </div>
+        </div>
+        <br>
+        <InputSelect @bind-Value="_employeeView.EmployeeType" class="btn btn-secondary dropdown-toggle" style="padding: 10px;">
+            <option [selected] color="white" value="0" > Select Type </option>
+            @foreach (var type in Enum.GetValues(typeof(EmployeeTypeEnum)))
+            {
+                <option value="@type">@type</option>
+            }
+        </InputSelect>
+        <br><br>
+        <button class="btn btn:hover " @onclick="AddEmployee">Add Employee</button>
+    </EditForm>
+</div>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Salary Per Month</th>
+            <th>Employee Type</th>
+            <th>
+                  <button class="btn btn-warning" @onclick="OnInitializedAsync">Deleted</button>
+                  <button class="btn btn-outline-dark" @onclick="() => EditMode = !EditMode">Edit</button>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+@if (isLoading)
+        {
+            <tr>
+                <td>
+                    <div class="spinner-border" role="status"></div>
+                </td>
+                <td>
+                    <div class="spinner-border" role="status"></div>
+                </td>
+                <td>
+                    <div class="spinner-border" role="status"></div>
+                </td>
+                <td>
+                    <div class="spinner-border" role="status"></div>
+                </td>
+                <td>
+                    <div class="spinner-border" role="status"></div>
+                </td>
+            </tr>
+        }
+        @if(EditMode)
+        {
+            
+           @if (DeleteMode)
+            {
+                @foreach (var employee in _employeeList)
+                {
+                        <tr>
+                            <td><input class="form-control" @bind="employee.Name" readonly /> </td>
+                            <td><input class="form-control" @bind="employee.Surname" readonly /></td>
+                            <td><input class="form-control" @bind="employee.SalaryPerMonth" readonly /></td>
+                            <td>
+                                <EditForm Model="@employee">
+                                    <InputSelect @bind-Value="employee.EmployeeType" class="btn btn-secondary dropdown-toggle">
+                                        @foreach (var employeeType in Enum.GetValues(typeof(EmployeeTypeEnum)))
+                                        {
+                                            <option value="@employeeType" disabled> @employeeType </option>
+                                                    }
+                                    </InputSelect>
+                                </EditForm>
+                            </td>
+                                 <td>
+                                    <td><button class="btn btn-outline-success" @onclick="() => SaveEmployee(employee)">Save</button></td> 
+                                    <td><button class="btn btn-warning" @onclick=" ()=> UndoDelete(employee)"> Undo</button> </td>                            
+                                </td>
+                        </tr>
+                }
+            }
+            @if (!DeleteMode)
+              {
+                  @foreach (var employee in _employeeList)
+                  {
+                        <tr>
+                            <td><input class="form-control" @bind="employee.Name" readonly /> </td>
+                            <td><input class="form-control" @bind="employee.Surname" readonly /></td>
+                            <td><input class="form-control" @bind="employee.SalaryPerMonth" readonly /></td>
+                            <td>
+                                <EditForm Model="@employee">
+                                    <InputSelect @bind-Value="employee.EmployeeType" class="btn btn-secondary dropdown-toggle">
+                                        @foreach (var employeeType in Enum.GetValues(typeof(EmployeeTypeEnum)))
+                                        {
+                                            <option value="@employeeType" disabled> @employeeType </option>
+                                         }
+                                    </InputSelect>
+                                </EditForm>
+                            </td>
+                                 <td>
+                                    <td><button class="btn btn-outline-success" @onclick="() => SaveEmployee(employee)">Save</button></td> 
+                                    <td><button class="btn btn-warning" @onclick="()=> DeleteEmployee(employee)"> Delete </button> </td>                            
+                                </td>
+                        </tr>
+                  }                  
+              }           
+        }
+
+       @if(!EditMode)
+        {
+            @if (DeleteMode)
+            {
+                @foreach (var employee in _employeeList)
+                {
+                            <tr>
+                                <td><input class="form-control" @bind="employee.Name"/> </td>
+                                <td><input class="form-control" @bind="employee.Surname"/></td>
+                                <td><input class="form-control" @bind="employee.SalaryPerMonth"/></td>
+                                <td>
+                                    <EditForm Model="@employee">
+                                        <InputSelect @bind-Value="employee.EmployeeType" class="btn btn-secondary dropdown-toggle">
+                                            @foreach (var employeeType in Enum.GetValues(typeof(EmployeeTypeEnum)))
+                                            {
+                                                <option value="@employeeType" > @employeeType </option>
+                                                        }
+                                        </InputSelect>
+                                    </EditForm>
+                                </td>
+                                <td>
+                                    <td><button class="btn btn-outline-success" @onclick="() => SaveEmployee(employee)">Save</button></td> 
+                                    <td><button class="btn btn-warning" @onclick="()=> UndoDelete(employee)"> Undo</button> </td>     
+                                </td>
+                            </tr>
+                 }
+            }
+
+            @if (!DeleteMode)
+            {
+                @foreach (var employee in _employeeList)
+                {
+                            <tr>
+                                <td><input class="form-control" @bind="employee.Name"/> </td>
+                                <td><input class="form-control" @bind="employee.Surname"/></td>
+                                <td><input class="form-control" @bind="employee.SalaryPerMonth"/></td>
+                                <td>
+                                    <EditForm Model="@employee">
+                                        <InputSelect @bind-Value="employee.EmployeeType" class="btn btn-secondary dropdown-toggle">
+                                            @foreach (var employeeType in Enum.GetValues(typeof(EmployeeTypeEnum)))
+                                            {
+                                                <option value="@employeeType" > @employeeType </option>
+                                            }
+                                        </InputSelect>
+                                    </EditForm>
+                                </td>
+                                <td>
+                                    <td><button class="btn btn-outline-success" @onclick="() => SaveEmployee(employee)">Save</button></td>
+                                    <td> <button class="btn btn-outline-danger" @onclick="() => DeleteEmployee(employee)">Delete</button></td>     
+                                </td>
+                            </tr>
+                 }
+            }
+        }
+
+</tbody>   
+</table>
+
+@code {
+
+    private EmployeeViewModel _employeeView { get; set; } = new();
+
+    List<EmployeeViewModel> _employeeList = new();
+
+    bool isLoading = true;
+
+    internal bool EditMode = true;
+
+    internal bool DeleteMode = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        DeleteMode = !DeleteMode;
+        if (DeleteMode)
+        {
+            await LoadDeletedEmployeesFromServer();
+        }
+        else
+        {
+            await LoadEmployeesFromServer();
+
+        }
+        isLoading = false;
+    }
+
+    private async Task LoadEmployeesFromServer()
+    {
+        _employeeList = await httpClient.GetFromJsonAsync<List<EmployeeViewModel>>("Employee");
+    }
+    private async Task LoadDeletedEmployeesFromServer()
+    {
+        _employeeList = await httpClient.GetFromJsonAsync<List<EmployeeViewModel>>("employee/statusfalse");
+    }
+
+    async Task AddEmployee()
+    {
+        if (string.IsNullOrWhiteSpace(_employeeView.Name) || string.IsNullOrWhiteSpace(_employeeView.Surname) || _employeeView.SalaryPerMonth == 0 || _employeeView.SalaryPerMonth == null || _employeeView.EmployeeType == 0)
+        {
+            await jsRuntime.InvokeVoidAsync("window.alert", ("All fields Are Required!"));
+            return;
+        }
+        await httpClient.PostAsJsonAsync("employee", _employeeView);
+
+        _employeeView = new();
+        _employeeView.Name = string.Empty;
+        _employeeView.Surname = string.Empty;
+        _employeeView.SalaryPerMonth = null;
+        _employeeView.EmployeeType = 0;
+        await LoadEmployeesFromServer();
+    }
+
+    async Task DeleteEmployee(EmployeeViewModel employeeToDelete)
+    {
+        var confirm = await jsRuntime.InvokeAsync<bool>("confirmationJS", null);
+        if (confirm)
+        {
+            var response = await httpClient.DeleteAsync($"employee/{employeeToDelete.ID}");
+            response.EnsureSuccessStatusCode();
+            await LoadEmployeesFromServer();
+        }
+    }
+    async Task InputOnEnterClick(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            await AddEmployee();
+        }
+    }
+    async Task UndoDelete(EmployeeViewModel employeeToDelete)
+    {
+        employeeToDelete.EndDate = new();
+        var confirm = await jsRuntime.InvokeAsync<bool>("confirmationJS", null);
+        if (confirm)
+        {
+            var response = await httpClient.DeleteAsync($"employee/{employeeToDelete.ID}/undo");
+            response.EnsureSuccessStatusCode();
+            await LoadEmployeesFromServer();
+        }
+    }
+
+    async Task SaveEmployee(EmployeeViewModel employee)
+    {
+        var confirm = await jsRuntime.InvokeAsync<bool>("confirmationJS", null);
+        if (confirm)
+        {
+            var response = await httpClient.PutAsJsonAsync("employee", employee);
+            response.EnsureSuccessStatusCode();
+            await LoadEmployeesFromServer();
+        }
+    }
+}
+

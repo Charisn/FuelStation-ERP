@@ -1,0 +1,24 @@
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Model\bin\Debug\net6.0\FuelStation.Model.deps.json
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Model\bin\Debug\net6.0\FuelStation.Model.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Model\bin\Debug\net6.0\FuelStation.Model.pdb
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Model\obj\Debug\net6.0\FuelStation.Model.csproj.AssemblyReference.cache
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Model\obj\Debug\net6.0\FuelStation.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Model\obj\Debug\net6.0\FuelStation.Model.AssemblyInfoInputs.cache
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Model\obj\Debug\net6.0\FuelStation.Model.AssemblyInfo.cs
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Model\obj\Debug\net6.0\FuelStation.Model.csproj.CoreCompileInputs.cache
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Model\obj\Debug\net6.0\FuelStation.Model.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Model\obj\Debug\net6.0\refint\FuelStation.Model.dll
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Model\obj\Debug\net6.0\FuelStation.Model.pdb
+C:\Users\Charis\Desktop\EpsilonNet\Coding-School-2022\FuelStation\FuelStation.Model\obj\Debug\net6.0\ref\FuelStation.Model.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Model\bin\Debug\net6.0\FuelStation.Model.deps.json
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Model\bin\Debug\net6.0\FuelStation.Model.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Model\bin\Debug\net6.0\FuelStation.Model.pdb
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Model\obj\Debug\net6.0\FuelStation.Model.csproj.AssemblyReference.cache
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Model\obj\Debug\net6.0\FuelStation.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Model\obj\Debug\net6.0\FuelStation.Model.AssemblyInfoInputs.cache
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Model\obj\Debug\net6.0\FuelStation.Model.AssemblyInfo.cs
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Model\obj\Debug\net6.0\FuelStation.Model.csproj.CoreCompileInputs.cache
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Model\obj\Debug\net6.0\FuelStation.Model.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Model\obj\Debug\net6.0\refint\FuelStation.Model.dll
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Model\obj\Debug\net6.0\FuelStation.Model.pdb
+C:\Users\Charis\Desktop\Fuel Station\FuelStation\FuelStation.Model\obj\Debug\net6.0\ref\FuelStation.Model.dll

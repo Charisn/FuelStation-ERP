@@ -1,0 +1,95 @@
+﻿@layout LoginLayout
+@page "/"
+
+@inject NavigationManager navigationManager
+@inject IJSRuntime jsRuntime
+@inject HttpClient httpClient
+
+<section class="vh-100" style="background-color: #b3b3b3;">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col col-xl-7">
+        <div class="card" style="border-radius: 4rem;">
+          <div class="row g-0">
+            <div class="col-md-6 col-lg-6 d-flex align-items-center">
+              <div class="card-body p-4 p-lg-5 text-black">
+
+                <form>
+
+                  <h4 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Manager Account</h4>
+
+                  <div class="form-outline mb-4">
+                    <input @bind="_auth.Username" id="Username" class="form-control form-control-lg" placeholder="Enter Username"/>
+                    <label class="form-label" for="form2Example17">Username</label>
+                  </div>
+
+                  <div class="form-outline mb-4">
+                    <input @bind="_auth.Password" type="password"  @onkeyup=InputOnEnterClick id="passwordForm" class="form-control form-control-lg" />
+                    <label class="form-label" for="form2Example27" placeholder="Enter Password">Password</label>
+                  </div>
+                  
+                  <div class="pt-1 mb-4">
+                    <button class="btn btn-dark btn-lg btn-block" type="button"@onclick="() => CheckValidity()"> Login</button>
+                  </div>
+
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+@code{
+    public AuthenticationModel _auth = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+    }
+
+    private async Task<AuthenticationModel?> Authenticate(AuthenticationModel auth)
+    {
+        if(string.IsNullOrWhiteSpace(auth.Username) || string.IsNullOrWhiteSpace(auth.Password))
+            return null;
+
+        var response = await httpClient.PostAsJsonAsync<AuthenticationModel>("Authentication", auth);
+        var results = await response.Content.ReadFromJsonAsync<AuthenticationModel>();
+        if (results is null)
+        {
+            await jsRuntime.InvokeVoidAsync("window.alert", "Wrong credentials");            
+        } 
+        _auth.EmployeeType = results.EmployeeType;
+        _auth.ID = results.ID;
+        _auth.Token = results.Token;
+        return _auth;
+    }
+    internal async void InputOnEnterClick(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            await Authenticate(_auth);
+        }
+    }
+    private async Task CheckValidity()
+    {
+        await Authenticate(_auth);
+        switch (Convert.ToInt32(_auth.EmployeeType))
+        {
+            case 0:
+                await jsRuntime.InvokeVoidAsync("window.alert", "Wrong credentials");
+                break;
+            case 1: //manager
+                navigationManager.NavigateTo("/index");
+                break;
+            case 2://staff
+                navigationManager.NavigateTo("/itemList");
+                break;
+            case 3: //cashier
+                navigationManager.NavigateTo("/customerList");
+                break;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FuelStation.Shared/1.0.0": {
+        "dependencies": {
+          "FuelStation.Model": "1.0.0"
+        },
+        "runtime": {
+          "FuelStation.Shared.dll": {}
+        }
+      },
+      "FuelStation.Model/1.0.0": {
+        "runtime": {
+          "FuelStation.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FuelStation.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FuelStation.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
